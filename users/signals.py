@@ -19,7 +19,7 @@ def createProfile(sender,instance,created,**kwargs):
             name = user.first_name,
         )
         subject = 'Welcome to DevSearch'
-        message = 'Hi there!,\n\nMy name is Rahul Jangir,I am the co-founder and CEO of devsearch. I wanted to personally welcome to you to devsearch on behalf of our entire team.\nYou are already one step closer to improving your customer support performance,\n \nIf you have any questions, just let me know. See you inside  devsearch. \n ... \nBest regards,\nRahul Jangir\nCo-founder and CEO of devsearch '
+        message = 'Hi there!,\n\nMy name is Rahul Jangir,I am the Co-founder and CEO of devsearch. I wanted to personally welcome to you to devsearch on behalf of our entire team.\nYou are already one step closer to improving your customer support performance,\n \nIf you have any questions, just let me know. See you inside  devsearch. \n ... \nBest regards,\nRahul Jangir\nCo-founder and CEO of devsearch '
 
         send_mail(
             subject,
